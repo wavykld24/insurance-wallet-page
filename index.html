@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Proof</title>
+    <style>
+        body {
+            background-color: #007BFF; /* Blue background like the original */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 300px; /* Matches original card size */
+        }
+        .card h1 {
+            color: #007BFF;
+            font-size: 24px;
+        }
+        .card p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .card img {
+            width: 200px; /* QR size like original */
+            height: 200px;
+            margin-top: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .wallet-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .wallet-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Insurance Verification</h1>
+        <p><span class="bold">VIN:</span> JNKCV51E74M111874</p> <!-- Replace with e.g., 1HGBH41JXMN109186 -->
+        <p><span class="bold">Make:</span> INFINITY</p> <!-- Replace with e.g., Honda -->
+        <p><span class="bold">Model:</span> G35</p> <!-- Replace with e.g., Accord -->
+        <p><span class="bold">Full Coverage:</span> FULL COVERAGE</p> <!-- Replace with e.g., Yes -->
+        <p><span class="bold">Name:</span> STANLEY SMITH</p> <!-- Replace with e.g., John Doe -->
+        <p><span class="bold">Address:</span> 1509-2333 TRUSCOTT DR, MISSISSAUGA ON L5J 4B7</p> <!-- Replace with e.g., 123 Fake St, Toronto, ON -->
+        <img src="qr_code.png" alt="Scan for Details"> <!-- Your QR image -->
+        <a href="insurance.pkpass" class="wallet-button">Add to Apple Wallet</a> <!-- New button for Wallet -->
+    </div>
+</body>
+</html>
